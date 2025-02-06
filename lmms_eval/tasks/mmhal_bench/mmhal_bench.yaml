@@ -1,0 +1,55 @@
+dataset_path: DogNeverSleep/MMHal-Bench
+dataset_kwargs:
+  token: True
+task: "mmhal_bench"
+test_split: train
+output_type: generate_until
+doc_to_visual: !function utils.mmhal_bench_doc_to_visual
+doc_to_text: !function utils.mmhal_bench_doc_to_text
+doc_to_target: "answer"
+generation_kwargs:
+  max_new_tokens: 1024
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false
+# The return value of process_results will be used by metrics
+process_results: !function utils.mmhal_bench_process_results
+# Note that the metric name can be either a registed metric function (such as the case for GQA) or a key name returned by process_results
+metric_list:
+  - metric: mmhal_bench_average_score
+    aggregation: !function utils.mmhal_bench_average_score
+    higher_is_better: true
+  - metric: hallucination_rate
+    aggregation: !function utils.mmhal_bench_hallucination_rate
+    higher_is_better: false
+  - metric: average_score_for_attribute
+    aggregation: !function utils.mmhal_bench_average_score_for_attribute
+    higher_is_better: true
+  - metric: average_score_for_adversarial
+    aggregation: !function utils.mmhal_bench_average_score_for_adversarial
+    higher_is_better: true
+  - metric: average_score_for_comparison
+    aggregation: !function utils.mmhal_bench_average_score_for_comparison
+    higher_is_better: true
+  - metric: average_score_for_counting
+    aggregation: !function utils.mmhal_bench_average_score_for_counting
+    higher_is_better: true
+  - metric: average_score_for_relation
+    aggregation: !function utils.mmhal_bench_average_score_for_relation
+    higher_is_better: true
+  - metric: average_score_for_environment
+    aggregation: !function utils.mmhal_bench_average_score_for_environment
+    higher_is_better: true
+  - metric: average_score_for_holistic
+    aggregation: !function utils.mmhal_bench_average_score_for_holistic
+    higher_is_better: true
+  - metric: average_score_for_other
+    aggregation: !function utils.mmhal_bench_average_score_for_other
+    higher_is_better: true
+lmms_eval_specific_kwargs:
+  default:
+    pre_prompt: ""
+    post_prompt: ""
+metadata:
+  - version: 0.0
