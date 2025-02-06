@@ -310,17 +310,7 @@
   - VDC Background Caption (background_test)
   - VDC Main Object Caption (main_object_test)
 
-
-## 4. Text Tasks
-
-- [GSM8K](https://github.com/openai/grade-school-math) (gsm8k)
-- [HellaSwag](https://rowanzellers.com/hellaswag/) (hellaswag)
-- [IFEval](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (ifeval)
-- [MMLU](https://github.com/hendrycks/test) (mmlu)
-- [MMLU_pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) (mmlu_pro)
-
-
-## 5. Hallucination and Safety Tasks
+## 4. Hallucination and Safety Tasks
 - [AMBER](https://github.com/junyangwang0410/AMBER) (amber)
 - [POPE](https://github.com/RUCAIBox/POPE) (pope)
 - [MMHal_Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench) (mmhal_bench)
@@ -339,3 +329,13 @@
   - ```Risk_identification``` (Identification Ability: The model's ability to correctly identify dangerous items and assess risk.)
   - ```Unsafes``` (Visual-Linguistic Safety: Ratio of model not rejecting output when the image contains harmful information.)
   - ```Safe_unsafes``` (Visual-Linguistic Safety: Ratio of model not rejecting output when the image is harmless but the instruction contains harmful content.)
+  
+
+
+## 5. Text Tasks
+
+- [GSM8K](https://github.com/openai/grade-school-math) (gsm8k)
+- [HellaSwag](https://rowanzellers.com/hellaswag/) (hellaswag)
+- [IFEval](https://github.com/google-research/google-research/tree/master/instruction_following_eval) (ifeval)
+- [MMLU](https://github.com/hendrycks/test) (mmlu)
+- [MMLU_pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) (mmlu_pro)
