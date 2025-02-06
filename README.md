@@ -1,10 +1,10 @@
 <p align="center" width="100%">
-<img src="docs/mmrlhf_title.webp"  width="80%" height="80%">
+<img src="miscs/mmrlhf_title.webp"  width="80%" height="80%">
 </p>
 
 # The Evaluation Suite of Large Multimodal Models 
 
-Welcome to the docs for `mmrlhf-eval`: the evaluation suite for the MM-RLHF(https://github.com/yfzhang114/MMPreference) project.**
+Welcome to the docs for `mmrlhf-eval`: the evaluation suite for the [MM-RLHF](https://github.com/yfzhang114/MMPreference) project.**
 
 ---
 
