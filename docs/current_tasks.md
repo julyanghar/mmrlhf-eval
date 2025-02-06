@@ -84,7 +84,6 @@
 - [OCRBench](https://github.com/Yuliang-Liu/MultimodalOCR) (ocrbench)
 - [OKVQA](https://okvqa.allenai.org/) (ok_vqa)
   - OKVQA Validation 2014 (ok_vqa_val2014)
-- [POPE](https://github.com/RUCAIBox/POPE) (pope)
 - [RefCOCO](https://github.com/lichengunc/refer) (refcoco)
   - refcoco_seg_test
   - refcoco_seg_val
@@ -159,7 +158,6 @@
 - [CMMMU](https://cmmmu-benchmark.github.io/) (cmmmu)
   - CMMMU Validation (cmmmu_val)
   - CMMMU Test (cmmmu_test)
-- [HallusionBench](https://github.com/tianyi-lab/HallusionBench) (hallusion_bench_image)
 - [ICON-QA](https://iconqa.github.io/) (iconqa)
   - ICON-QA Validation (iconqa_val)
   - ICON-QA Test (iconqa_test)
@@ -322,9 +320,11 @@
 - [MMLU_pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) (mmlu_pro)
 
 
-## 5. Hallucination Tasks
+## 5. Hallucination and Safety Tasks
 - [AMBER](https://github.com/junyangwang0410/AMBER) (amber)
+- [POPE](https://github.com/RUCAIBox/POPE) (pope)
 - [MMHal_Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench) (mmhal_bench)
+- [HallusionBench](https://github.com/tianyi-lab/HallusionBench) (hallusion_bench_image)
 - [Object HalBench](https://github.com/LisaAnne/Hallucination) (objecthallusion)
   - object_hallucination
 - [MM-RLHF-SafetyBench] (mm-rlhf-safetybench)
