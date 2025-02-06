@@ -4,7 +4,7 @@
 
 # The Evaluation Suite of Large Multimodal Models 
 
-Welcome to the docs for `mmrlhf-eval`: the evaluation suite for the [MM-RLHF](https://github.com/yfzhang114/MMPreference) project.**
+Welcome to the docs for `mmrlhf-eval`: the evaluation suite for the [MM-RLHF](https://github.com/yfzhang114/MMPreference) project.
 
 ---
 
