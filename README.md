@@ -1,6 +1,16 @@
 <p align="center" width="100%">
 <img src="miscs/mmrlhf_title.webp"  width="80%" height="80%">
 </p>
+<font size=7><div align='center' >  
+[[📖 arXiv Paper](https://arxiv.org/abs/2406.08487)] 
+[[📊 MM-RLHF Data](https://huggingface.co/datasets/yifanzhang114/MM-RLHF)] 
+[[📝 Homepage](https://mm-rlhf.github.io/)] 
+
+[[🏆 Reward Model](https://huggingface.co/yifanzhang114/MM-RLHF-Reward-7B-llava-ov-qwen)] 
+[[🔮 MM-RewardBench](https://huggingface.co/datasets/yifanzhang114/MM-RLHF-RewardBench)] 
+[[🔮 MM-SafetyBench](https://github.com/yfzhang114/mmrlhf-eval)] 
+[[📈 Evaluation Suite](https://github.com/yfzhang114/mmrlhf-eval)] 
+</div></font>
 
 # The Evaluation Suite of Large Multimodal Models 
 
