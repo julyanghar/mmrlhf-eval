@@ -99,23 +99,10 @@ Please refer to our [documentation](docs/README.md).
 ## Citations
 
 ```shell
-@misc{zhang2024lmmsevalrealitycheckevaluation,
-      title={LMMs-Eval: Reality Check on the Evaluation of Large Multimodal Models}, 
-      author={Kaichen Zhang and Bo Li and Peiyuan Zhang and Fanyi Pu and Joshua Adrian Cahyono and Kairui Hu and Shuai Liu and Yuanhan Zhang and Jingkang Yang and Chunyuan Li and Ziwei Liu},
-      year={2024},
-      eprint={2407.12772},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.12772}, 
-}
-
-@misc{lmms_eval2024,
-    title={LMMs-Eval: Accelerating the Development of Large Multimoal Models},
-    url={https://github.com/EvolvingLMMs-Lab/lmms-eval},
-    author={Bo Li*, Peiyuan Zhang*, Kaichen Zhang*, Fanyi Pu*, Xinrun Du, Yuhao Dong, Haotian Liu, Yuanhan Zhang, Ge Zhang, Chunyuan Li and Ziwei Liu},
-    publisher    = {Zenodo},
-    version      = {v0.1.0},
-    month={March},
+@article{zhang2024mme,
+    title={MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?},
+    author={Zhang, Yi-Fan and Zhang, Huanyu and Tian, Haochen and Fu, Chaoyou and Zhang, Shuangqing and Wu, Junfei and Li, Feng and Wang, Kun and Wen, Qingsong and Zhang, Zhang and others},
+    journal={arXiv preprint arXiv:2408.13257},
     year={2024}
-}
+}      
 ```
