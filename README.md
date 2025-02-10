@@ -1,6 +1,7 @@
 <p align="center" width="100%">
 <img src="miscs/mmrlhf_title.webp"  width="80%" height="80%">
 </p>
+
 <font size=7><div align='center' >  
 [[📖 arXiv Paper](https://arxiv.org/abs/2406.08487)] 
 [[📊 MM-RLHF Data](https://huggingface.co/datasets/yifanzhang114/MM-RLHF)] 
