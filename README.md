@@ -110,10 +110,10 @@ Please refer to our [documentation](docs/README.md).
 ## Citations
 
 ```shell
-@article{zhang2024mme,
-    title={MME-RealWorld: Could Your Multimodal LLM Challenge High-Resolution Real-World Scenarios that are Difficult for Humans?},
-    author={Zhang, Yi-Fan and Zhang, Huanyu and Tian, Haochen and Fu, Chaoyou and Zhang, Shuangqing and Wu, Junfei and Li, Feng and Wang, Kun and Wen, Qingsong and Zhang, Zhang and others},
-    journal={arXiv preprint arXiv:2408.13257},
-    year={2024}
-}      
+@article{zhang2025mm,
+  title={MM-RLHF: The Next Step Forward in Multimodal LLM Alignment},
+  author={Zhang, Yi-Fan and Yu, Tao and Tian, Haochen and Fu, Chaoyou and Li, Peiyan and Zeng, Jianshu and Xie, Wulin and Shi, Yang and Zhang, Huanyu and Wu, Junkang and others},
+  journal={arXiv preprint arXiv:2502.10391},
+  year={2025}
+}
 ```
