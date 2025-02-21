@@ -3,7 +3,7 @@
 </p>
 
 <font size=7><div align='center' >  
-[[📖 arXiv Paper](https://arxiv.org/abs/2406.08487)] 
+[[📖 arXiv Paper](https://arxiv.org/abs/2502.10391)] 
 [[📊 MM-RLHF Data](https://huggingface.co/datasets/yifanzhang114/MM-RLHF)] 
 [[📝 Homepage](https://mm-rlhf.github.io/)] 
 
@@ -15,7 +15,7 @@
 
 # The Evaluation Suite of Large Multimodal Models 
 
-Welcome to the docs for `mmrlhf-eval`: the evaluation suite for the [MM-RLHF](https://github.com/yfzhang114/MMPreference) project.
+Welcome to the docs for `mmrlhf-eval`: the evaluation suite for the [MM-RLHF](https://github.com/yfzhang114/MM-RLHF) project.
 
 ---
 
