@@ -1040,7 +1040,9 @@ class ConfigurableTask(Task):
             # `ds = load_datasets("lmms-lab/MMMU")`
             self.dataset = datasets.load_from_disk(path=self.DATASET_PATH, name=self.DATASET_NAME)
         else:
+            # yilin 加载时限定2个
             self.dataset = datasets.load_dataset(
+                # split={"train":"train[:50]"},
                 path=self.DATASET_PATH,
                 name=self.DATASET_NAME,
                 download_mode=datasets.DownloadMode.REUSE_DATASET_IF_EXISTS,

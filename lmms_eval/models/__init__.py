@@ -10,6 +10,7 @@ os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
 logger.remove()
 logger.add(sys.stdout, level="WARNING")
 
+# yilin 支持的model
 AVAILABLE_MODELS = {
     "auroracap": "AuroraCap",
     "batch_gpt4": "BatchGPT4",
